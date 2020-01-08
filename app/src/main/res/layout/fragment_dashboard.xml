@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBg">
+
+    <Button
+        android:id="@+id/btn_referrer_qr"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        style="@style/button"
+        android:text="Referral QR"
+        android:layout_margin="@dimen/gap_external"
+        app:layout_constraintBottom_toTopOf="@+id/btn_upline_qr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_upline_qr"
+        android:layout_width="0dp"
+        style="@style/button"
+        android:layout_height="wrap_content"
+        android:text="Upline QR"
+        android:layout_margin="@dimen/gap_external"
+        app:layout_constraintBottom_toTopOf="@+id/btn_gc_qr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_gc_qr"
+        android:layout_width="0dp"
+        style="@style/button"
+        android:layout_height="wrap_content"
+        android:text="GC QR"
+        android:layout_margin="@dimen/gap_external"
+        app:layout_constraintBottom_toTopOf="@+id/btn_cash_qr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_cash_qr"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Cash QR"
+        style="@style/button"
+        android:layout_margin="@dimen/gap_external"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

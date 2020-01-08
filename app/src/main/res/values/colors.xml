@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF0000</color>
+    <color name="colorPrimaryDark">#11000000</color>
+    <color name="colorAccent">#FF0000</color>
+    <color name="badge">#FF0000</color>
+    <color name="colorButtonNormal">#FF0000</color>
+    <color name="colorButtonPressed">#D00000</color>
+    <color name="colorButtonDisabled">#AFAFAF</color>
+    <color name="colorBg">#FFFFFFFF</color>
+    <color name="blue">#5486f7</color>
+    <color name="black">#292828</color>
+    <color name="dark_grey">#8e8e93</color>
+    <color name="dark_grey_selectd">#59595C</color>
+    <color name="grey">#ACA7A7</color>
+    <color name="light_grey">#F1F1F2</color>
+    <color name="text_secondary">#727272</color>
+    <color name="bgConnections">#F89A9A</color>
+    <color name="bgConnectionsTabs">#FAD5D6</color>
+    <color name="tab_selected">@color/colorAccent</color>
+    <color name="tab">@color/colorBg</color>
+    <color name="textError">#D00000</color>
+    <color name="chatSelectedItemBg">#64aca7a7</color>
+    <color name="white">#ffffff</color>
+    <color name="txt_added_to_cart">#8b876b</color>
+    <color name="txt_payment_done">#802539</color>
+    <color name="color_test_item">#22ff0000</color>
+    <color name="color_bg_gradient_start">#F9323B</color>
+    <color name="color_bg_gradient_end">#F59A9C</color>
+    <color name="color_bg_gradient3_start">#3292F9</color>
+    <color name="color_bg_gradient3_end">#9AD5F5</color>
+    <color name="divider_separator">#cccccc</color>
+    <color name="progressbg">#33000000</color>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GenerateQR</string>
+
+    <string name="contents_text">Plain text</string>
+    <string name="qr_code">QR code</string>
+    <string name="txt_qr_expiry">Expiring in %1$s seconds</string>
+    <string name="err_invalid_duration_min">Invalid expiry duration set. Minimum expiry time for QR is 3 minutes</string>
+    <string name="err_invalid_duration_max">Invalid expiry duration set. Maximum expiry time for QR is 60 minutes</string>
+    <string name="encode_succeeded">Encoding Succeeded</string>
+    <string name="encode_failed">Encoding failed</string>
+</resources>
